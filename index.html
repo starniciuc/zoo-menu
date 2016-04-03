@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div>
+  <div class="left-category-menu-area">
+    <h3 class="cat-toggle-heading">Каталог</h3>
+    <div class="left-category-menu">
+      <ul>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/dog.png" alt="dogs">Собаки</a>
+          <p><a href="#">Корма</a></p>
+          <p><a href="#">Лакомства</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/cat.png" alt="dogs">Кошки</a>
+          <p><a href="#">Корма</a></p>
+          <p><a href="#">Гигиена</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/rabbit.png" alt="dogs">Грызуны и хорьки</a>
+          <p><a href="#">Грызуны и хорьки</a></p>
+          <p><a href="#">Корма</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/bird.png" alt="dogs">Птицы</a>
+          <p><a href="#">Птицы</a></p>
+          <p><a href="#">Корма</a></p>
+          <p><a href="#">Клетки, подставки</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/cow.png" alt="dogs">Ферма</a>
+          <p><a href="#">Премиксы</a></p>
+          <p><a href="#">Уход</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/snake.png" alt="dogs">Рептилии и земноводные</a>
+          <p><a href="#">Рептилии и земноводные</a></p>
+          <p><a href="#">Корма</a></p>
+          <p><a href="#">Террариумы</a></p>
+        </li>
+        <li>
+          <a href="#"><img src="http://1-zoo.ru/bitrix/templates/common_template/images/icons/fish.png" alt="dogs">Аквариумистика</a>
+          <p><a href="#">Живые рыбы</a></p>
+          <p><a href="#">Аквариумы</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.2.js"></script>
+<script>
+  $(".cat-toggle-heading").click(function() {
+    $(".left-category-menu").slideToggle();
+  })
+</script>
+</body>
+</html>
