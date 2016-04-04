@@ -37,7 +37,40 @@
     list-style: none;
     padding: 0;
 }
+.left-category-menu ul li .submenu-right{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    width: 0px;
+    list-style: none;
+    padding: 10px;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #fafafa;
+    border: 1px solid #752275;
+    border-left: 2px solid #752275;
+    transition: all 0.35s;
+}
+.left-category-menu ul li .submenu-right li{
+    display: block;
+    margin-bottom: 5px;
+}
+.left-category-menu ul li .submenu-right li a{
+    color: #474747;
+    font-weight: normal;
+}
+.left-category-menu ul li .submenu-right li a:hover{
+    text-decoration: none;
+}
+.left-category-menu ul li:hover .submenu-right{
+    opacity: 1;
+    width: 200px;
+    max-height: 600px;
+}
+
 .left-category-menu ul li{
+    position: relative;
     padding:8px 15px;
     position: relative;
     border-bottom:1px solid #752275;
