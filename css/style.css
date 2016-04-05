@@ -33,6 +33,8 @@
 }
 .left-category-menu ul{
     background-color: #f1f0f0;
+    border-right: 1px solid #752275;
+    border-left: 1px solid #752275;
     margin: 0;
     list-style: none;
     padding: 0;
@@ -65,8 +67,13 @@
 }
 .left-category-menu ul li:hover .submenu-right{
     opacity: 1;
-    width: 200px;
+    width: 320px;
     max-height: 600px;
+}
+
+.left-category-menu ul li .submenu-right:hover + a{
+    color: #474747;
+    text-decoration: none;
 }
 
 .left-category-menu ul li{
@@ -93,7 +100,8 @@
     margin-right: 15px;
 }
 .left-category-menu> ul> li:hover> a{
-    color:#fff;
+    color: #474747;
+    text-decoration: none;
 }
 .left-category-menu ul li p{
     margin:0;
